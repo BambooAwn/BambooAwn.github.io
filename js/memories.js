@@ -6,3 +6,4 @@ $(function(){
     });
 });
 //loadAudioFile('../music/1.mp3');
+loadAudioFile('music/1.mp3');
