@@ -9,6 +9,6 @@ $('#login-button').click(function (event) {
 		setTimeout(function () { location.href = "BirthdayCake.html"; }, 2000);
 	}
 	else {
-		alert("Wrong Password");
+		alert("猜错了喔,提示一下是个日期捏~");
 	}
 });
