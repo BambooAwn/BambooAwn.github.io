@@ -2,13 +2,13 @@ $('#login-button').click(function (event) {
 	var userName = document.getElementById("userName").value;
 	var pwd = document.getElementById("pwd").value;
 	//修改密码请改此处
-	if (userName == "纪文博" && pwd == "0704") {
+	if (userName == "纪文博" && pwd == "2019") {
 		event.preventDefault();
 		$('form').fadeOut(500);
 		$('.wrapper').addClass('form-success');
 		setTimeout(function () { location.href = "BirthdayCake.html"; }, 2000);
 	}
 	else {
-		alert("猜错了喔,提示一下是个日期捏~");
+		alert("猜错了喔,提示一下是个年份捏~");
 	}
 });
